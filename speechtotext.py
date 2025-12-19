@@ -39,7 +39,7 @@ for audio in audios:
             print(f"Failed chunk {i//chunk_len_ms}: {e}")
             continue
 
-        segments.append({"video_number":f"{video_number}","title":f"{title}","start":f"{(start_ms/1000)/60}","end":f"{(end_ms/1000)%60}","text":f"{result.text}"})
+        segments.append({"video_number":f"{video_number}","title":f"{title}","start":f"{(start_ms//1000)//60:02d}:{(start_ms//1000)%60:02d}","end":f"{(end_ms//1000)//60:02d}:{(end_ms//1000)%60:02d}","text":f"{result.text}"})
 
     final_json={"chunks":segments,"full_text":" ".join(s["text"] for s in segments)}
         
