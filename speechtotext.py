@@ -1,3 +1,5 @@
+#This section involves chunking and audio to text conversion and then creation of json files for each video.
+
 from pydub import AudioSegment
 from openai import OpenAI
 from dotenv import load_dotenv
