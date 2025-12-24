@@ -64,13 +64,7 @@ def get_answer(query):
 
     with open("prompt.txt","w") as f:
         f.write(prompt)
-# print(new_df[["video_number","title","text"]])
-# for rec in new_df.index:
-#     print(f"Video Number: {new_df.at[rec,"video_number"]}\n Video Title: {new_df.at[rec,"title"]}\n Text: {new_df.at[rec,"text"]}\n")
 
-
-
-# print('Thinking:\n', response.message.thinking)
-# print('Answer:\n', response.message.content)
     answer=inference(prompt)
+    print(answer)
     return answer
