@@ -1,3 +1,4 @@
+# Here every text is converted into an embedding and seperated all chunks along with their embeddings and stored into dataframe
 import ollama
 import os
 import json

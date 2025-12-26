@@ -38,18 +38,18 @@
     
 #     print(result.text)
 
-import os
-import json
+# import os
+# import json
 
-files=os.listdir("jsons")
-for file in files:
-    with open(f"jsons/{file}","r+") as f:
-        content=json.load(f)
-        i=0
-        arr=content["chunks"]
-        for obj in arr:
-            obj["start"]=f"{i//60}:{i%60:02d}"
-            i+=20
-            obj["end"]=f"{i//60}:{i%60:02d}"
-        f.seek(0)
-        json.dump(content,f)
+# files=os.listdir("jsons")
+# for file in files:
+#     with open(f"jsons/{file}","r+") as f:
+#         content=json.load(f)
+#         i=0
+#         arr=content["chunks"]
+#         for obj in arr:
+#             obj["start"]=f"{i//60}:{i%60:02d}"
+#             i+=20
+#             obj["end"]=f"{i//60}:{i%60:02d}"
+#         f.seek(0)
+#         json.dump(content,f)

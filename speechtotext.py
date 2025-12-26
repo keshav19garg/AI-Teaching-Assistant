@@ -1,4 +1,4 @@
-#This section involves chunking and audio to text conversion and then creation of json files for each video.
+#This section involves chunking of audios and audio to text conversion and then creation of json files for each video.
 
 from pydub import AudioSegment #pydub also uses ffmpeg
 from openai import OpenAI
