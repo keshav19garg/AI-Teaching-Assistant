@@ -47,7 +47,7 @@ The system is **domain-agnostic** and works for any course, regardless of subjec
 ## How to use this RAG based AI Teaching Assistant for your own course
 
 ### 1. Video to Audio Conversion
-Convert all your videos to audios(mp3) file by running video_to_mp3.py
+Add all your videos in the "videos" folder and convert all your videos to audios(mp3) file by running video_to_mp3.py
 
 ### 2. Audio to Text Conversion
 Convert all mp3 files to json by running speechtotext.py
