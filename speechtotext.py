@@ -18,7 +18,7 @@ for audio in audios:
     audio_duration_ms=len(audio_file)
     segments=[]
     base_name = os.path.splitext(audio)[0]
-    parts = base_name.split('_')    
+    parts = base_name.split('_',1)    
     video_number = parts[0]
     title = parts[1] if len(parts) > 1 else ""
     chunks=os.makedirs("chunks",exist_ok=True)
