@@ -14,6 +14,7 @@ for audio in audios:
     audio_path=f"audios/{audio}"
     chunk_len_ms=20000
     audio_file=AudioSegment.from_file(audio_path)
+    # print(type(audio_file))
     audio_duration_ms=len(audio_file)
     segments=[]
     base_name = os.path.splitext(audio)[0]

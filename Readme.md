@@ -12,7 +12,7 @@ The system is **domain-agnostic** and works for any course, regardless of subjec
 
 ## Key Features
 
-* Upload educational video or audio courses
+* Upload any kind of video or audio courses taught in any language
 
 * Automatic audio extraction and transcription
 

@@ -1,9 +1,8 @@
-# Here every text is converted into an embedding and seperated all chunks along with their embeddings and stored into dataframe
+# Here every text is converted into an embedding and seperated all chunks along with their embeddings and stored into dataframe (as an alternative for vector database)
 import ollama
 import os
 import json
 import pandas as pd
-from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import joblib
 
