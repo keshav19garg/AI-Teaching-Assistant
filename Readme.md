@@ -4,6 +4,20 @@ This project is a Retrieval-Augmented Generation (RAG) based AI Teaching Assista
 
 The system is **domain-agnostic** and works for any course, regardless of subject or level.
 
+## Libraries Used
+
+* Numpy
+
+* Pandas
+
+* Scikit-Learn
+
+* Pydub
+
+* openai
+
+* Ollama
+  
 ## Demo
 
 ![Question Screenshot](static/QuestionSS.png)
