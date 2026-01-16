@@ -17,6 +17,8 @@ The system is **domain-agnostic** and works for any course, regardless of subjec
 * openai
 
 * Ollama
+
+* Flask
   
 ## Demo
 
